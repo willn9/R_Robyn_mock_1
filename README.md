@@ -17,8 +17,7 @@ The demo project demonstrates:
 ├── README.md # This file
 └── .gitignore # (recommended)
 
-yaml
-Copy code
+
 
 ---
 
@@ -58,12 +57,11 @@ df$revenue <-
   0.003 * df$paid_search +
   0.001 * df$social +
   rnorm(100, 50000, 5000)
+
 This ensures:
 
 Non-zero media contributions
-
 Meaningful ROAS estimates
-
 Clear demonstration of MMM mechanics
 
 Disclaimer
@@ -72,5 +70,4 @@ Results from synthetic data should not be used for real marketing decisions.
 
 References
 Robyn (Meta): https://github.com/facebookexperimental/Robyn
-
 MMM overview: https://facebookexperimental.github.io/Robyn/
